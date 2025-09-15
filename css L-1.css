@@ -1,0 +1,105 @@
+/* Q1/ create a simple div with an id "box".
+add some content inside the div.
+set its background color to blue?
+
+soln: */
+#box{
+    background-color:blue;
+    color: white;
+}
+
+/* Q2/ create 3 headings with h1,h2,h3.
+give them all a class "heading"& set color of "heading"to red. 
+
+soln:*/
+.heading{
+    color: red;
+}
+
+/* Q3/ create a button and set its background color to:
+.green using css stylesheet
+.blue using <style>tag
+.pink using inline style
+
+soln: inline tag has most priority,styletag & external stylesheet based which 
+is written at the end of head tag*/
+button{
+    background-color: green;
+}
+
+#p1{
+
+    
+    text-align:center;
+}
+body{
+    background-color: rgb(100, 98, 98);
+}
+#para{
+    text-decoration:rgb(15, 15, 15) line-through;
+}
+
+
+#Heading1{
+    font-weight: lighter;
+}
+#Heading2{
+font-weight: 400;
+}
+#Heading3{
+    font-weight: 600;
+    }
+#Heading4{
+    font-weight: 900;
+   }
+   u{
+    color: pink;
+   }
+
+    #p2{
+        font-family: cursive;
+    }
+
+    #p3{
+        font-size: 50px;
+    }
+    #p4{
+        font-size:xx-large;
+    }  
+    #p5{
+        font-size:16px;
+    }
+
+    #p6{
+        line-height: 30px;
+    }
+
+    #p7{
+        text-transform: uppercase;
+    }
+    /* Q4: create a heading centered on the page with all of its text capatilized by default. 
+    soln:*/
+    #h5{
+        text-align: center;
+        text-transform: capitalize;
+    }
+    /* Q5: set the font family of all the content in the document tO "times new roman.
+    soln: */
+    *{
+        font-family: 'Times New Roman';
+        color: white;
+    
+    }
+/* Q6: create one div insde another div.
+        set id & text "outer"for the first one & "inner' for the second one.
+        set the outer div text size to 25px & inner div text size to 10px.
+        soln: */
+        #outer{
+            font-size:25px;
+
+        }
+
+        #inner{
+            font-size:10px;
+
+        }
