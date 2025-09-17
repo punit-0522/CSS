@@ -1,0 +1,87 @@
+
+h1{
+    height: 50px;
+    width: 200
+    px;
+    background-color: red;
+}
+#div1{
+    background-color: blue;
+    padding: 50px ;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+/* create a div height and weidth of 100px.
+set its background color to green and border radius to 50%
+ans */
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+     border-radius: 50%;
+     padding: 50px;
+}
+
+/* create the navbar.
+ans */
+#div3{
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    width: 1500px;
+    background-color: #0f1111;
+    border: 5px solid white;
+}
+.logo{
+font-size: 25px;
+margin-right:  200px;
+background-color: #0f1111;
+color: white;
+text-decoration: none;
+
+}
+#logo1{
+    font-size: 25px;
+    color: #f08804;
+    margin-right: 200px;
+    background-color: #0f1111;
+    text-decoration: none;
+}
+#b1{
+    background-color: #f08804;
+}
+body{
+    background-color: gray;
+}
+
+#div5{
+    background-color: rgba(255,0,0,0.50);
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#div6{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+#div7{
+    background-color: yellow;
+    margin: 25px;
+    padding: 25px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
